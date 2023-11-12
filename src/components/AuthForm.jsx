@@ -22,8 +22,8 @@ function AuthForm({ title, name, button, isRegistered, onSignSubmit }) {
   }
 
   return (
-    <div className="auth__container">
-      <div>
+    <main className="auth">
+      <div className="auth__container">
         <form
           className="popup__form-registration"
           method="post"
@@ -67,7 +67,7 @@ function AuthForm({ title, name, button, isRegistered, onSignSubmit }) {
           </div>
         </form>
       </div>
-    </div>
+    </main>
   );
 }
 

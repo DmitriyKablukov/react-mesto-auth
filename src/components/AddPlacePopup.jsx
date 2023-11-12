@@ -31,6 +31,7 @@ function AddPlacePopup({ isOpen, onClose, onUpdateCards }) {
           <input
             name="name"
             id="place"
+            value={card.name}
             className="popup__input popup__input_data_place"
             required=""
             type="text"
@@ -43,6 +44,7 @@ function AddPlacePopup({ isOpen, onClose, onUpdateCards }) {
           <input
             name="link"
             id="link-image"
+            value={card.link}
             className="popup__input popup__input_data_link"
             required=""
             type="url"
